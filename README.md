@@ -3,7 +3,7 @@
 [//]: # (Image References)
 [image1]: https://raw.githubusercontent.com/ruanvdm11/Ruan_CARND_Term2_PROJ4/master/Reference%20Images/VideoScreenshot.JPG "Video1"
 
-[image2]: https://raw.githubusercontent.com/ruanvdm11/Ruan_CARND_Term2_PROJ4/master/Reference%20Images/VideoScreenshot.JPG "Video2"
+[image2]: https://raw.githubusercontent.com/ruanvdm11/Ruan_CARND_Term2_PROJ4/master/Reference%20Images/VideoScreenshot2.JPG "Video2"
 
 ## PID Parameter Definitions
 
