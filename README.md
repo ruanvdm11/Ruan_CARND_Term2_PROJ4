@@ -13,6 +13,17 @@ In order to implement finer control we can now add a term that differentiates th
 
 Finally we can add the -I term. This is the integral of the error which means that all of the errors are summed. This value reduces large fluctuations but also has the disadvantage that the model takes a while return to a good state if large errors were obtained.
 
-Below is a video showcasing the effect of these parameters:
+Below is a video showcasing the effect of these parameters. Each time the simulator resets a new parameter is added. Initially only the proprotional part is used. Then the derivative parameter is used and finally the integral terms gets added.
 
 [![alt text][image1]](https://youtu.be/2VBNVLNBYJM)
+
+## PID Parameter Selection and optimization
+
+I chose to impelement a manual approach for selecting the parameters of the model. The workflow I used is as follows:
+* I incrementally increased Kp (Proportional Gain) until the vehicle navigated the track successfully. I also did this at al lower speed of 15 mph.
+* I then started increasing the Kd (Derivative Gain) until the oscillations were satisfactory to me.
+* Finally I increased the Ki (Integral Gain) until the model recovered form errors more grudually.
+
+Here is a video showcasing a successful lap of the track:
+
+
