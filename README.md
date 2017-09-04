@@ -3,6 +3,8 @@
 [//]: # (Image References)
 [image1]: https://raw.githubusercontent.com/ruanvdm11/Ruan_CARND_Term2_PROJ4/master/Reference%20Images/VideoScreenshot.JPG "Video1"
 
+[image2]: https://raw.githubusercontent.com/ruanvdm11/Ruan_CARND_Term2_PROJ4/master/Reference%20Images/VideoScreenshot2.JPG "Video2"
+
 ## PID Parameter Definitions
 
 The PID Controller uses three different paramters in order to control a system. Which in this case is a vehicle drving arround the track. The -P parameter is the *proportional* parameter. Thus, if, for argument sake, a vehicle needs to keep to the speed limit of 60 km/hour then the error term would be defined as the speed limit minus the *true* vehicle speed. This value is then multiplied by a *gain* value. The output from this equation could be used to control the throttle of the vehicle.
@@ -26,4 +28,4 @@ I chose to impelement a manual approach for selecting the parameters of the mode
 
 Here is a video showcasing a successful lap of the track:
 
-
+[![alt text][image2]](https://youtu.be/QLmyw90qtFM)
